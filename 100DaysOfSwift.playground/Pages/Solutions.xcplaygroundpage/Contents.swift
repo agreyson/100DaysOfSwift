@@ -15,6 +15,6 @@ func graduationYear(gradeLevel: GradeLevel) -> Int {
     return 2022 + (GradeLevel.senior.rawValue - gradeLevel.rawValue)
 }
 
-print("Seniors graduate in \(graduationYear(gradeLevel: GradeLevel.senior)).")
-print("Sixth graders graduate in \(graduationYear(gradeLevel: GradeLevel.sixth)).")
+print("Seniors graduate in \(graduationYear(gradeLevel: GradeLevel.senior)).") // Should print 2022
+print("Sixth graders graduate in \(graduationYear(gradeLevel: GradeLevel.sixth)).") // Should print 2028
 
