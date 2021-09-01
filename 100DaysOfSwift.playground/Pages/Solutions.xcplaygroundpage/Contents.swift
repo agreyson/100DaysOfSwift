@@ -4,15 +4,15 @@
 // as a parameter, and returns the graduation year for that grade level.
 enum GradeLevel: Int {
     case sixth = 6
-    case seventh = 5
-    case eighth = 4
-    case freshman = 3
-    case sophomore = 2
-    case junior = 1
-    case senior = 0
+    case seventh = 7
+    case eighth = 8
+    case freshman = 9
+    case sophomore = 10
+    case junior = 11
+    case senior = 12
 }
 func graduationYear(gradeLevel: GradeLevel) -> Int {
-    return 2022 + gradeLevel.rawValue
+    return 2022 + (GradeLevel.senior.rawValue - gradeLevel.rawValue)
 }
 
 print("Seniors graduate in \(graduationYear(gradeLevel: GradeLevel.senior)).")
