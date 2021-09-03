@@ -1,3 +1,5 @@
+// Day 2.10: Enum raw values (https://www.hackingwithswift.com/sixty/2/10/enum-raw-values)
+//
 // Design an enum GradeLevel that represents the seven grade levels at Castilleja,
 // sixth through senior.
 // Then write a one line function graduationYear that takes a GradeLevel value
