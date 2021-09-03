@@ -3,5 +3,6 @@
     <pages>
         <page name='Exercises'/>
         <page name='Solutions'/>
+        <page name='Sets and Functions Solution'/>
     </pages>
 </playground>
