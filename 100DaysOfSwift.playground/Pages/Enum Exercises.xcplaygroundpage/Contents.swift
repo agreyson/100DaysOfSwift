@@ -14,5 +14,6 @@ print("Sixth graders graduate in \(graduationYear(gradeLevel: GradeLevel.sixth))
 print("Eighth graders graduate in \(graduationYear(gradeLevel: GradeLevel.eighth)).")
 print("Juniors graduate in \(graduationYear(gradeLevel: GradeLevel.junior)).")
 print("Seventh graders graduate in \(graduationYear(gradeLevel: GradeLevel.seventh)).")
+print("Freshmen graduate in \(graduationYear(gradeLevel: GradeLevel.freshman)).")
 
 
